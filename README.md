@@ -64,6 +64,3 @@ class PedidoVisitor {
     return pedido.valor * 0.9; // 10% de desconto
   }
 }
-
-## 🐾 Resumo simples
-O Visitor é como um "visitante especialista" que olha cada tipo de objeto (como um pedido comum ou com desconto) e sabe exatamente o que fazer com ele, sem que o objeto precise saber como a lógica funciona.
