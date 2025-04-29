@@ -64,3 +64,27 @@ class PedidoVisitor {
     return pedido.valor * 0.9; // 10% de desconto
   }
 }
+```
+## ✅ Vantagens
+
+- ✅ **Separa regras de negócio da estrutura de dados**  
+  Permite que as regras fiquem fora das classes principais, deixando o código mais limpo e modular.
+
+- ✅ **Fácil adicionar novas operações (visitantes)**  
+  Basta criar uma nova classe Visitor sem precisar alterar as classes dos objetos existentes.
+
+- ✅ **Organiza melhor o código quando há muitas operações**  
+  Evita poluir as classes de dados com múltiplos métodos relacionados a diferentes comportamentos.
+
+---
+
+## ❌ Desvantagens
+
+- ⚠️ **Aumenta a complexidade**  
+  Exige mais classes e interfaces, o que pode deixar o projeto mais difícil de entender para iniciantes.
+
+- ⚠️ **Dificuldade se a estrutura dos objetos mudar**  
+  Se você alterar as classes dos elementos visitados, será necessário atualizar todos os visitantes.
+
+- ⚠️ **Pode violar o encapsulamento**  
+  O Visitor pode precisar acessar detalhes internos do objeto, quebrando a ideia de esconder implementação.
