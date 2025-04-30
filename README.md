@@ -1,3 +1,6 @@
+# Link da apressentação:
+https://www.canva.com/design/DAGmCW0kPyE/he6v_Tn719lJixnpzkSliA/edit?utm_content=DAGmCW0kPyE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 # 🧭 Design Pattern - Visitor
 
 ## 📌 O que é o Visitor?
